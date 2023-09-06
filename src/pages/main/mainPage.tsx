@@ -1,7 +1,7 @@
 import { AddTodoForm, TodoList } from '@/components';
 import { TodoStatus } from '@/store/store';
 import { Box, Grid, Tab, Tabs, Typography } from '@mui/material';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 function a11yProps(index: number, label: string) {
   return {

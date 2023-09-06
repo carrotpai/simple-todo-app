@@ -1,6 +1,6 @@
 import { TodoList } from '..';
 import { useTodoStore } from '@/store/store';
-import { render, screen, act, fireEvent } from '@/tests/utils';
+import { render, screen, fireEvent } from '@/tests/utils';
 import { formatTodoTime } from '@/utils';
 
 const renderTodoList = () => {

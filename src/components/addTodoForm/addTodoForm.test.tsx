@@ -1,5 +1,5 @@
 import { AddTodoForm } from '..';
-import { render, screen, act, fireEvent, waitFor } from '@/tests/utils';
+import { render, screen, fireEvent, waitFor } from '@/tests/utils';
 
 const renderForm = () => {
   return render(<AddTodoForm />);

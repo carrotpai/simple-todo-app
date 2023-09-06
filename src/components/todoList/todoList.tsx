@@ -1,10 +1,9 @@
 import { TodoStatus, TodoType, useTodoStore } from '@/store/store';
 import { Box, Button, Grid, InputAdornment, TextField, Typography } from '@mui/material';
 import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline';
-import { useCallback, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import SearchIcon from '@mui/icons-material/Search';
 import { Todo } from '..';
-import { debounce } from '@/utils';
 
 interface TodoListProps {
   todoStatus?: TodoStatus | 'all';

@@ -1,6 +1,6 @@
 import { formatTodoTime } from '@/utils';
 import { Todo } from '..';
-import { render, screen, act, fireEvent } from '@/tests/utils';
+import { render, screen } from '@/tests/utils';
 
 const renderTodo = () => {
   return render(
@@ -9,7 +9,7 @@ const renderTodo = () => {
       name="one todo"
       date={formatTodoTime(new Date()) ?? 'unknown date'}
       type="pending"
-      onChange={(e) => {}}
+      onChange={() => {}}
     />
   );
 };
