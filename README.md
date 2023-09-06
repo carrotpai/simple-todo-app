@@ -1,5 +1,7 @@
 # React + TypeScript + Vite
 
+[деплой](https://simple-todo-app-mintbox.vercel.app/)
+
 Фронтенд:  
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
